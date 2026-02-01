@@ -3,19 +3,19 @@ creation_rules:
     key_groups:
       - age:
           - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
-          - age1y0yv6cpfmuw0cjkvv0r9dvg6p5fjerzrma4fmhmrly53uxdwa4dsvtgnpc
+          - age1c5nd7dejnmhksjtuy9ddm6l4c5szgr36srdefc2nm3qzjnl20a8sjknvzr
 
   - path_regex: ^secrets/systems/day\.ya?ml$
     key_groups:
       - age:
           - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
-          - age1y0yv6cpfmuw0cjkvv0r9dvg6p5fjerzrma4fmhmrly53uxdwa4dsvtgnpc
+          - age1c5nd7dejnmhksjtuy9ddm6l4c5szgr36srdefc2nm3qzjnl20a8sjknvzr
 
   - path_regex: ^secrets/users/adam\.ya?ml$
     key_groups:
       - age:
           - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
-          - age1y0yv6cpfmuw0cjkvv0r9dvg6p5fjerzrma4fmhmrly53uxdwa4dsvtgnpc
+          - age1c5nd7dejnmhksjtuy9ddm6l4c5szgr36srdefc2nm3qzjnl20a8sjknvzr
 
   - path_regex: ^secrets/.*\.ya?ml$
     key_groups:
