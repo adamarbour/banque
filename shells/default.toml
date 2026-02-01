@@ -1,0 +1,31 @@
+name = "nix-secrets"
+motd = '''
+$(cfonts "nix-secrets"){reset}
+$(type -p menu &>/dev/null && menu)
+'''
+
+packages = [
+  # keep-sorted start
+  "age",
+  "cfonts",
+  "coreutils",
+  "gawk",
+  "git",
+  "gnused",
+  "gum",
+  "just",
+  "npins",
+  "sops",
+  "yq-go",
+  # keep-sorted end
+]
+
+[[env]]
+name = "SOPS_AGE_KEY_FILE"
+eval = "${HOME}/.config/sops/age/keys.txt"
+
+[[commands]]
+name = "shhh"
+help = "Manager the secrets"
+category = "operations"
+command = "./ops/secretsmgr"

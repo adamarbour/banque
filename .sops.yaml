@@ -1,0 +1,23 @@
+creation_rules:
+  - path_regex: ^secrets/default\.ya?ml$
+    key_groups:
+      - age:
+          - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
+          - age1y902e6ry8pp9yvkwq8nawzj363my25flj6fjxv6ljcp0emztq50qerkrnp
+
+  - path_regex: ^secrets/systems/day\.ya?ml$
+    key_groups:
+      - age:
+          - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
+          - age1y902e6ry8pp9yvkwq8nawzj363my25flj6fjxv6ljcp0emztq50qerkrnp
+
+  - path_regex: ^secrets/users/adam\.ya?ml$
+    key_groups:
+      - age:
+          - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
+          - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
+
+  - path_regex: ^secrets/.*\.ya?ml$
+    key_groups:
+      - age:
+          - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf

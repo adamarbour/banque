@@ -1,0 +1,44 @@
+{
+  "pins": {
+    "devshell": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "numtide",
+        "repo": "devshell"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "255a2b1725a20d060f566e4755dbf571bbbb5f76",
+      "url": "https://github.com/numtide/devshell/archive/255a2b1725a20d060f566e4755dbf571bbbb5f76.tar.gz",
+      "hash": "sha256-460jc0+CZfyaO8+w8JNtlClB2n4ui1RbHfPTLkpwhU8="
+    },
+    "nixpkgs": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "nixos",
+        "repo": "nixpkgs"
+      },
+      "branch": "nixos-unstable",
+      "submodules": false,
+      "revision": "bfc1b8a4574108ceef22f02bafcf6611380c100d",
+      "url": "https://github.com/nixos/nixpkgs/archive/bfc1b8a4574108ceef22f02bafcf6611380c100d.tar.gz",
+      "hash": "sha256-msG8SU5WsBUfVVa/9RPLaymvi5bI8edTavbIq3vRlhI="
+    },
+    "treefmt-nix": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "numtide",
+        "repo": "treefmt-nix"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "28b19c5844cc6e2257801d43f2772a4b4c050a1b",
+      "url": "https://github.com/numtide/treefmt-nix/archive/28b19c5844cc6e2257801d43f2772a4b4c050a1b.tar.gz",
+      "hash": "sha256-8aAYwyVzSSwIhP2glDhw/G0i5+wOrren3v6WmxkVonM="
+    }
+  },
+  "version": 7
+}
