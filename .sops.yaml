@@ -15,6 +15,7 @@ creation_rules:
     key_groups:
       - age:
           - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
+          - age1y0yv6cpfmuw0cjkvv0r9dvg6p5fjerzrma4fmhmrly53uxdwa4dsvtgnpc
 
   - path_regex: ^secrets/.*\.ya?ml$
     key_groups:

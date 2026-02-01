@@ -13,7 +13,6 @@
   programs.shellcheck.enable = true;
 
   # misc
-  programs.prettier.enable = true;
   programs.keep-sorted.enable = true;
 
   # exclude
@@ -22,5 +21,6 @@
     ".direnv/**"
     "result/**"
     "npins/**"
+    "secrets/**"
   ];
 }
