@@ -4,6 +4,7 @@ creation_rules:
       - age:
           - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
           - age1c5nd7dejnmhksjtuy9ddm6l4c5szgr36srdefc2nm3qzjnl20a8sjknvzr
+          - age1qrh4wefl5xyl8se62mp2lg970mtrazhes7007ldqlhm2tvkt8d2sys3zgf
 
   - path_regex: ^secrets/systems/day\.ya?ml$
     key_groups:
@@ -11,11 +12,18 @@ creation_rules:
           - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
           - age1c5nd7dejnmhksjtuy9ddm6l4c5szgr36srdefc2nm3qzjnl20a8sjknvzr
 
+  - path_regex: ^secrets/systems/arbourcloud\.ya?ml$
+    key_groups:
+      - age:
+          - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
+          - age1qrh4wefl5xyl8se62mp2lg970mtrazhes7007ldqlhm2tvkt8d2sys3zgf
+
   - path_regex: ^secrets/users/adam\.ya?ml$
     key_groups:
       - age:
           - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
           - age1c5nd7dejnmhksjtuy9ddm6l4c5szgr36srdefc2nm3qzjnl20a8sjknvzr
+          - age1qrh4wefl5xyl8se62mp2lg970mtrazhes7007ldqlhm2tvkt8d2sys3zgf
 
   - path_regex: ^secrets/.*\.ya?ml$
     key_groups:
