@@ -8,6 +8,7 @@ creation_rules:
           - age1eep4vfce2ha56av0tqfe5srjn3cmextyjkga4kypt0697k9syvgsuc935j
           - age1yv0mg3rfkcz9gfg96dw7e7n0p2s6gm2kx3cw3z2q2hlu89j2vdaqnsx2jv
           - age1qp97mklukfhwux8xr04eplzlnmzenrekx34n6j267t80jwq55s2sear0l8
+          - age1c2adyex2qya8jkxae97gxy4e2shfpaawde59lgvdq5q7lu254v7sgx88a5
 
   - path_regex: ^secrets/systems/day\.ya?ml$
     key_groups:
@@ -39,6 +40,12 @@ creation_rules:
           - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
           - age1qp97mklukfhwux8xr04eplzlnmzenrekx34n6j267t80jwq55s2sear0l8
 
+  - path_regex: ^secrets/systems/summer\.ya?ml$
+    key_groups:
+      - age:
+          - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
+          - age1c2adyex2qya8jkxae97gxy4e2shfpaawde59lgvdq5q7lu254v7sgx88a5
+
   - path_regex: ^secrets/users/adam\.ya?ml$
     key_groups:
       - age:
@@ -48,6 +55,7 @@ creation_rules:
           - age1eep4vfce2ha56av0tqfe5srjn3cmextyjkga4kypt0697k9syvgsuc935j
           - age1yv0mg3rfkcz9gfg96dw7e7n0p2s6gm2kx3cw3z2q2hlu89j2vdaqnsx2jv
           - age1qp97mklukfhwux8xr04eplzlnmzenrekx34n6j267t80jwq55s2sear0l8
+          - age1c2adyex2qya8jkxae97gxy4e2shfpaawde59lgvdq5q7lu254v7sgx88a5
 
   - path_regex: ^secrets/.*\.ya?ml$
     key_groups:
