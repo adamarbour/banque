@@ -63,18 +63,6 @@ creation_rules:
           - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
           - age1al4tw250shj4u3g9us36eqqzat23nj79tcn9jtcw04cyscm0devq7em2f6
 
-  - path_regex: ^secrets/systems/lucien\.ya?ml$
-    key_groups:
-      - age:
-          - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
-          - age15x2ahhl754elalej4stqk3z2dxmehu380zgyuj29xsk5w6r59ufsd33yzm
-
-  - path_regex: ^secrets/systems/nesta\.ya?ml$
-    key_groups:
-      - age:
-          - age1d9afgcnyv7xv79yywdmeyp62tkgav0kwpjlq0hqvadxzyznx955qpupqhf
-          - age1xphs630jhmw2n4469wxavlvyhmq7psyxnl9vpycs7xzat604h5jqm4h3rh
-
   - path_regex: ^secrets/users/adam\.ya?ml$
     key_groups:
       - age:
@@ -88,7 +76,6 @@ creation_rules:
           - age1p3a54x8srdj9r4czsgg7en8n5t5lw8j4e2d4wrg7lly9tswmj3zsakwuu8
           - age1al4tw250shj4u3g9us36eqqzat23nj79tcn9jtcw04cyscm0devq7em2f6
           - age15x2ahhl754elalej4stqk3z2dxmehu380zgyuj29xsk5w6r59ufsd33yzm
-          - age1xphs630jhmw2n4469wxavlvyhmq7psyxnl9vpycs7xzat604h5jqm4h3rh
           - age1xfavtxweemc54sh3ty5c8yf3v5nmnad4kwgz9j28j3zu5mw3kg9svdpdr5
 
   - path_regex: ^secrets/.*\.ya?ml$
