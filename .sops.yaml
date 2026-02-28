@@ -13,6 +13,7 @@ creation_rules:
           - age1al4tw250shj4u3g9us36eqqzat23nj79tcn9jtcw04cyscm0devq7em2f6
           - age15x2ahhl754elalej4stqk3z2dxmehu380zgyuj29xsk5w6r59ufsd33yzm
           - age1xphs630jhmw2n4469wxavlvyhmq7psyxnl9vpycs7xzat604h5jqm4h3rh
+          - age1tkdmf4kx0ksfwzwenmyhfh4uvzqgvdlcgpldscanzqgwtw37he9q8v4tqq
 
   - path_regex: ^secrets/systems/day\.ya?ml$
     key_groups:
@@ -88,6 +89,7 @@ creation_rules:
           - age1al4tw250shj4u3g9us36eqqzat23nj79tcn9jtcw04cyscm0devq7em2f6
           - age15x2ahhl754elalej4stqk3z2dxmehu380zgyuj29xsk5w6r59ufsd33yzm
           - age1xphs630jhmw2n4469wxavlvyhmq7psyxnl9vpycs7xzat604h5jqm4h3rh
+          - age1tkdmf4kx0ksfwzwenmyhfh4uvzqgvdlcgpldscanzqgwtw37he9q8v4tqq
 
   - path_regex: ^secrets/.*\.ya?ml$
     key_groups:
